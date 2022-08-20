@@ -86,19 +86,19 @@
     align-self: flex-end;
 }
 .food-img-box .box-1{
-    background-image: url("/food_Img/adobo.jpeg");
+    background-image: url("./food_Img/adobo.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .food-img-box .box-2{
-    background-image: url("/food_Img/sinigang.jpeg");
+    background-image: url("./food_Img/sinigang.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .food-img-box .box-3{
-    background-image: url("/food_Img/kare.jpeg");
+    background-image: url("./food_Img/kare.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
