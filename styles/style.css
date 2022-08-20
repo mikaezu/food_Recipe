@@ -1,0 +1,134 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e6e6e6;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.about{
+    height: 48vh;
+    padding: 1rem;
+}
+.about h1{
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    color: #2c698d;
+}
+
+.about p{
+    text-indent: 2rem;
+    padding: 0.5rem;
+    width: 90%;
+    line-height: 2rem;
+}
+.about h3{
+    padding: 0.5rem;
+    color: #2c698d;
+}
+.food-img-box{
+    display: flex;
+    flex-direction: row;
+    height:20vh;
+}
+.food-img-box .box{
+    width: 20rem;
+    height: 100%;
+    margin: auto;
+}
+.food-img-box .shadow-effects{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    background-color:rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.50s;
+}
+.food-img-box .shadow-effects > *{
+    transform: translateY(20px);
+    transition: transform 0.50s;
+}
+.food-img-box .shadow-effects:hover > *{
+    transform: translateY(0px);
+}
+.box .shadow-effects:hover{
+    opacity: 1;
+}
+.box .img-blur{
+    backdrop-filter: blur(3px);
+}
+.food-img-box .adobo-overlay a{
+    font-size: 2rem;
+    color: #e6e6e6;
+    text-decoration: none;
+    background-color: transparent;
+    align-self: flex-end;
+}
+.food-img-box .sinigang-overlay a{
+    font-size: 2rem;
+    color: #e6e6e6;
+    text-decoration: none;
+    background-color: transparent;
+    align-self: flex-end;
+}
+.food-img-box .kare-overlay a{
+    font-size: 2rem;
+    color: #e6e6e6;
+    text-decoration: none;
+    background-color: transparent;
+    align-self: flex-end;
+}
+.food-img-box .box-1{
+    background-image: url("/food_Img/adobo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.food-img-box .box-2{
+    background-image: url("/food_Img/sinigang.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.food-img-box .box-3{
+    background-image: url("/food_Img/kare.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.discover{
+    height: 32vh;
+    padding: 0.5rem;
+}
+.discover h1{
+    text-align: center;
+    padding: 1rem;
+    color: #2c698d;
+}
+
+.discover p {
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.discover form{
+    padding: 1rem;
+    text-align: center;
+}
+.discover form .search {
+    text-indent: 2rem;
+    font-size: 20px;
+    border: 2px solid rgb(184, 184, 184);
+    border-radius: 50px;
+    height:4rem;
+    box-shadow: -2px 4px 8px 0 rgba(0,0,0,.15)!important;
+    width: 40%;
+}
+
